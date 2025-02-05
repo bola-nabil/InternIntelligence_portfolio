@@ -1,0 +1,23 @@
+.not-found {
+  text-align: center;
+  height: calc(100vh - 100px);
+  animation: scale-up-top 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.not-found h2 {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.not-found p {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+@media (max-width: 600px) {
+  .not-found p {
+    font-size: 18px;
+  }
+}

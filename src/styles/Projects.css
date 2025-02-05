@@ -1,0 +1,25 @@
+.projects-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px;
+  margin-top: 100px;
+}
+
+.projects-controls {
+  margin: 50px 0;
+  gap: 10px;
+}
+
+.projects-controls button {
+  color: white;
+  background-color: var(--main-color);
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.projects-controls span {
+  color: var(--header-color);
+}
