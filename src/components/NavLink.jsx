@@ -11,11 +11,36 @@ import {
 import { Link, useLocation } from "react-router-dom";
 const NavLink = () => {
   const linksData = [
-    { id: 1, title: "Home", path: "/", linkIcon: faHouse },
-    { id: 2, title: "About", path: "/about", linkIcon: faUser },
-    { id: 3, title: "Resume", path: "/resume", linkIcon: faFile },
-    { id: 4, title: "Projects", path: "/projects", linkIcon: faListCheck },
-    { id: 5, title: "Contact", path: "/contact", linkIcon: faPhone },
+    {
+      id: 1,
+      title: "Home",
+      path: "InternIntelligence_portfolio",
+      linkIcon: faHouse,
+    },
+    {
+      id: 2,
+      title: "About",
+      path: "InternIntelligence_portfolio/about",
+      linkIcon: faUser,
+    },
+    {
+      id: 3,
+      title: "Resume",
+      path: "InternIntelligence_portfolio/resume",
+      linkIcon: faFile,
+    },
+    {
+      id: 4,
+      title: "Projects",
+      path: "InternIntelligence_portfolio/projects",
+      linkIcon: faListCheck,
+    },
+    {
+      id: 5,
+      title: "Contact",
+      path: "InternIntelligence_portfolio/contact",
+      linkIcon: faPhone,
+    },
   ];
   const location = useLocation();
   return (
